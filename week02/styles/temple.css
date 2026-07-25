@@ -43,6 +43,10 @@ section p {
     margin: 10px;
 }
 
+ul {
+    margin: 10px 20px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
