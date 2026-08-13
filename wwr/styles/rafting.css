@@ -30,7 +30,6 @@ footer {
     margin: 0 auto;
 }
 
-/* Header using CSS Grid */
 header {
     display: grid;
     grid-template-columns: 140px 1fr;
@@ -44,7 +43,6 @@ header img {
     margin-left: 10px;
 }
 
-/* Navigation using Flexbox */
 nav {
     display: flex;
     justify-content: center;
@@ -115,7 +113,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent2-color);
-    color: #fff;
+    color: black;
     font-size: 2rem;
 }
 
@@ -198,8 +196,6 @@ footer {
     width: 35px;
     margin-left: 10px;
 }
-
-/* Contact page layout matching the wireframe */
 
 .company-info {
     text-align: center;
@@ -296,4 +292,225 @@ footer {
     height: 140px;
     object-fit: cover;
     border-radius: 4px;
+}
+
+.home-intro {
+    margin: 32px 0;
+}
+
+.home-intro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.home-card {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 16px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+
+.home-card img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.home-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.home-card p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.newsletter-section {
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 25px;
+    margin: 32px 0;
+}
+
+.newsletter-section p {
+    margin: 10px auto 20px;
+    padding: 0;
+}
+
+.newsletter-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 10px;
+    align-items: end;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.newsletter-form label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.newsletter-form button {
+    padding: 10px 18px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: var(--secondary-color);
+}
+
+.home-cta {
+    text-align: center;
+    padding: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    margin: 32px 0;
+}
+
+.home-cta h2 {
+    color: white;
+}
+
+.home-cta p {
+    margin: 10px 0 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.trips-intro {
+    text-align: center;
+    margin: 32px 0;
+}
+
+.trips-intro h1 {
+    color: var(--accent1-color);
+    margin-bottom: 15px;
+}
+
+.trips-intro p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.trips-cta {
+    text-align: center;
+    padding: 25px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    margin: 32px 0;
+}
+
+.trips-cta h2 {
+    margin-bottom: 10px;
+}
+
+.trips-cta p {
+    margin-bottom: 20px;
+}
+
+.trip-options {
+    margin: 32px 0;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.trip-card {
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.trip-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.trip-card-content {
+    padding: 15px;
+}
+
+.trip-card-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.trip-card-content p {
+    margin: 8px 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.trip-table-section {
+    margin: 40px 0;
+}
+
+.trip-table-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trip-table-section th,
+.trip-table-section td {
+    border: 1px solid #999;
+    padding: 12px;
+    text-align: left;
+}
+
+.trip-table-section th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trip-table-section tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.trip-table-section tr:hover {
+    background-color: #e6e6e6;
 }
