@@ -41,7 +41,7 @@ header {
 
 header img {
     width: 120px;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 /* Navigation using Flexbox */
@@ -192,10 +192,6 @@ footer {
     padding: 20px;
     border-top: 1px solid #ccc;
     margin-top: 30px;
-}
-
-.socialmedia a {
-    text-decoration: none;
 }
 
 .socialmedia img {
